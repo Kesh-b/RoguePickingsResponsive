@@ -184,6 +184,7 @@ footer span {
 
 	.section-one {
 		width: 26%;
+		padding: 0;
 	}
 
 	.section-two {
@@ -196,6 +197,7 @@ footer span {
 
 	.section-three {
 		width: 26%;
+		padding: 0 15px;
 	}
 
 
@@ -229,6 +231,10 @@ footer span {
 
 	header nav ul {
 		display: flex;
-		justify-content: space-between;
-		
+		justify-content: space-between;	
 	}
+
+	header nav ul li {
+		padding: 0 10px;
+	}
+}
